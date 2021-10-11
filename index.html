@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мастер шеф</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/spectre.min.css">
+    <link rel="stylesheet" href="vendor/spectre-exp.min.css">
+    <link rel="stylesheet" href="vendor/spectre-icons.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header class="header bg-gray">
+    <div class="container">
+        <div class="header__body">
+            <a href="./index.html" class="header-logo">Мастер шеф</a>
+            <div class="header__log">
+                <a href="./login.html" class="btn btn-link header-login">Login</a>
+                <div></div>
+                <a href="./signup.html" class="btn btn-link header-signup">Sign-up</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <section class="section main">
+            <div class="container">
+                <div  class="main__body">
+                    <div class="main__content">
+                        <div class="main__content__block">
+                            <h1 class="main-title main__content-title">Мясо по французски</h1>
+                            <p class="main-text">Мясо по-французски — блюдо, приготовленное из слоёв мяса, картофеля и сыра. Во всём мире, кроме постсоветского пространства, называется «мясом по-Орловски», поскольку создатель блюда, француз Урбен Дюбуа, был поваром графа Алексея Орлова, ближайшего соратника императора Николая Первого</p>
+                            <div class="main-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                        </div>
+                        <div class="main__content__block">
+                            <h2 class="main__content-title">Ингредиенты:</h2>
+                            <table class="table table-striped table-hover main__content__table">
+                                <thead>
+                                    <tr>
+                                        <th>Название</th>
+                                        <th>Кол-во</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Вода</td>
+                                        <td>1/2 стакана</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дрожжи</td>
+                                        <td>2 пакета</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сахар</td>
+                                        <td>1/2 стакана</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- <ul class="main__content__list">
+                                <li><span>Вода</span> - <span>1/2 стакана</span></li>
+                                <li>Дрожжи</li>
+                                <li>Молоко</li>
+                            </ul> -->
+                        </div>
+                    </div>
+                    <form action="#" method="POST" class="main__filter">
+                        <div class="main__filter__form">
+                            <div class="main__filter__type">
+                                <h2 class="main__filter-title">Тип блюда</h4>
+                                <div class="main__filter__radio__block">
+                                    <div class="btn main__filter__radio">
+                                        <input id="breakfast" type="radio" name="type_dish" checked>
+                                        <label for="breakfast">Завтрак</label>
+                                    </div>
+                                    <div class="btn main__filter__radio">
+                                        <input id="lunch" type="radio" name="type_dish">
+                                        <label for="lunch">Обед</label>
+                                    </div>
+                                    <div class="btn main__filter__radio">
+                                        <input id="dinner" type="radio" name="type_dish">
+                                        <label for="dinner">Ужин</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__filter__ingr">
+                                <h2 class="main__filter-title">Ингредиенты</h2>
+                                <div class="main__filter__checkbox__block">
+                                    <div class="btn main__filter__checkbox">
+                                        <input id="ingr_meet" type="checkbox" name="ingr_meet">
+                                        <label for="ingr_meet">Мясо</label>
+                                    </div>
+                                    <div class="btn main__filter__checkbox">
+                                        <input id="ingr_fish" type="checkbox" name="ingr_fish">
+                                        <label for="ingr_fish">Рыба</label>
+                                    </div>
+                                    <div class="btn main__filter__checkbox">
+                                        <input id="ingr_rice" type="checkbox" name="ingr_rice">
+                                        <label for="ingr_rice">Рис</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary main__filter__submit">Найти рецепт</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section history">
+            <div class="container">
+                <div class="history__body">
+                    <h2 class="history-title">History</h2>
+                    <div class="history__list">
+                        <a href="#" class="history__card">
+                            <div class="history__card-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                            <div class="history__card__content">
+                                <h3 class="history__card-title">Мясо по французски</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="history__card">
+                            <div class="history__card-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                            <div class="history__card__content">
+                                <h3 class="history__card-title">Мясо по французски</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="history__card">
+                            <div class="history__card-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                            <div class="history__card__content">
+                                <h3 class="history__card-title">Мясо по французски</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="history__card">
+                            <div class="history__card-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                            <div class="history__card__content">
+                                <h3 class="history__card-title">Мясо по французски</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="history__card">
+                            <div class="history__card-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                            <div class="history__card__content">
+                                <h3 class="history__card-title">Мясо по французски</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="history__card">
+                            <div class="history__card-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                            <div class="history__card__content">
+                                <h3 class="history__card-title">Мясо по французски</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="history__card">
+                            <div class="history__card-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                            <div class="history__card__content">
+                                <h3 class="history__card-title">Мясо по французски</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="history__card">
+                            <div class="history__card-img"><img src="https://www.vsegdavkusno.ru/assets/images/recipes/1442/1.jpg" alt=""></div>
+                            <div class="history__card__content">
+                                <h3 class="history__card-title">Мясо по французски</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer bg-gray">
+    <div class="container">
+        <div class="header__body">
+            <a href="./index.html" class="header-logo">Мастер шеф</a>
+            <div class="header__log">
+                <a href="./login.html" class="btn btn-link header-login">Login</a>
+                <div></div>
+                <a href="./signup.html" class="btn btn-link header-signup">Sign-up</a>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
